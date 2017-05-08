@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Kontak Sekolah Koding</title>
+</head>
+
+<body>
+
+<!--bagian awal, isinya tag heading-->
+  <div>
+	<h1>Kontak Sekolah Koding</h1>
+    <h2>Tutorial online untuk belajar <span>membuat website</span></h2>
+  </div>
+  
+  <!-- membuat form-->
+  <form>
+  <fieldset>
+  <legend>Nama dan Pesan</legend>
+    <label for="nama_user">Nama</label>
+  	<input type="text" placeholder="Nama User" value="Nama Anda" id="nama_user">
+    <br>
+    <label for="pesan_user">Pesan</label>
+    <textarea cols="100" rows="7" id="pesan_user">Pesan saya adalah...</textarea>
+    <br>
+   </fieldset>
+<fieldset>
+<legend>Pilihan Data</legend>
+    <label>Hobi</label><br>
+    <input type="checkbox" name="hobi_user" value="0">Menggambar
+    <input type="checkbox" name="hobi_user" value="1" checked>Menulis
+    <input type="checkbox" name="hobi_user" value="2">Menyanyi<br>
+  
+    <label>Jenis Kelamin</label><br>
+    <input type="radio" name="gender" value="0">Laki-laki
+    <input type="radio" name="gender" value="1">Perempuan
+    <br>
+    <label>Pelajaran</label>
+    <select>
+        <optgroup label="Frontend">
+        	<option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="js">Javascript</option>
+        </optgroup>
+        
+        <optgroup label="Backend">
+        	<option value="php">PHP-MySQl</option>
+            <option value="java">JAVA</option>
+        </optgroup>
+     </select>
+    </fieldset>        
+   
+    <br>
+    <input type="submit" value="Submit Data">
+
+
+  </form>
+  
+  <br><br>
+  <table border="1">
+  	<caption>Daftar murid Sekolahkoding</caption>
+    <tr>
+    	<th>Nama Murid</th>
+        <th>Kota Asal</th>
+    </tr>
+    <tr>
+    	<td>Hilman</td>
+        <td>Makasassar</td>
+    </tr>
+    <tr>
+    	<td>Endy</td>
+        <td>Palangkaraya</td>
+    </tr>
+  </table>
+  
+  <!--list pada html-->
+  <ul>
+  	<li>Hilman</li>
+    <li>Endy</li>
+  </ul>
+  
+  <ol>
+  	<li>Hilman</li>
+    <li>Endy</li>
+  </ol>
+  
+  <dl>
+  	<dt>Hilman</dt>
+    <dd>User Pertama SekolahKoding</dd>
+    
+    <dt>Endy</dt>
+    <dd>User Kedua SekolahKoding</dd>
+  </dl>
+ 
+	<p>&copy; SekolahKoding</p>
+</body>
+</html>
