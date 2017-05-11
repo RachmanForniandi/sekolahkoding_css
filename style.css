@@ -64,9 +64,16 @@ h2{
 
 .menu{
 	display:inline-block;
-	height: 50px;
-	width: 100px;	
-	text-decoration:none;
+	/*height: 50px;
+	  width: 100px;	
+	  text-decoration:none; */
+	
+	/*border-width: 3px;
+	  border-style:solid;
+	  border-color:#000000; */
+	 
+	border: 3px solid #000000;
+	padding: 10px 5px;
 }
 
 /*kondisi biasa*/
