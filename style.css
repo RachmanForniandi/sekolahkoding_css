@@ -37,3 +37,24 @@ h2{
 	*/
 }
 
+/*kondisi biasa*/
+.menu:link{
+	background:#8B8B8B;
+	color:#FFFFFF;
+}
+
+/*kondisi stelah dikunjungi*/
+.menu:visited{
+	background:#E7FC10;
+}
+
+/*kondisi hover- Mouse berada diatas link*/
+.menu:hover{
+	background:#03420D;
+}
+
+/*sedang diklik*/
+.menu:active{
+	background: #FFFFFF;
+}
+
