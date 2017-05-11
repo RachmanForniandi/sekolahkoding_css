@@ -1,5 +1,6 @@
 @charset "utf-8";
 /* Belajar CSS*/
+
 body{
 	/*
 	background-color: #fdfdfd;
@@ -7,7 +8,7 @@ body{
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center; */
-	background: #fdfdfd url(gambar/monitor_code.png) no-repeat fixed center;	
+	background: #fdfdfd url(gambar/monitor_code.png) no-repeat fixed center; font-family:sans-serif;	
 }
 
 h1{
@@ -21,11 +22,18 @@ h2{
 	text-transform:uppercase;
 }
 
+#text_pendek{
+	font-size:24px;
+	font-family:sans-serif;
+	font-weight: bold;
+}
+
 #text_panjang{
 	text_align: justify;
 	text-indent: 30px;
-	letter-spacing: 5px;
+	/*letter-spacing: 5px;
 	word-spacing: 5px;
 	line-height: 20px;
+	*/
 }
 
