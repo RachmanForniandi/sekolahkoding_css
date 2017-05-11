@@ -89,7 +89,7 @@ h2{
 
 /*kondisi hover- Mouse berada diatas link*/
 .menu:hover{
-	background:#03420D;
+	background:#04CD0E;
 }
 
 /*sedang diklik*/
@@ -97,3 +97,10 @@ h2{
 	background: #FFFFFF;
 }
 
+/*---mengatur posisi di CSS---*/
+/*---1. static, 2. relative, 3. absolute, 4. fixed---*/
+#menu_member{
+	position:relative;
+	top: 70px;
+	left: 20px;
+}
