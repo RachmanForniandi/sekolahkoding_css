@@ -26,6 +26,11 @@ h2{
 	font-size:24px;
 	font-family:sans-serif;
 	font-weight: bold;
+	background:#D3F800;
+	width: 50%;
+	height: 200px;
+	max-width: 30%;
+	max-height: 100px;
 }
 
 #text_panjang{
