@@ -1,6 +1,11 @@
 @charset "utf-8";
 /* Belajar CSS*/
 
+/*mengatur margin utk 1 layar halaman web*/
+*{
+ /* margin: 0px; */
+}
+
 body{
 	/*
 	background-color: #fdfdfd;
@@ -50,6 +55,11 @@ h2{
 	word-spacing: 5px;
 	line-height: 20px;
 	*/
+}
+
+#menu_wrap{
+	/*margin: top right bottom left;*/
+	margin: 10px 0 50px 0;
 }
 
 .menu{
