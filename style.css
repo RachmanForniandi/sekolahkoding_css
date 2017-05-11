@@ -9,3 +9,23 @@ body{
 	background-position: center; */
 	background: #fdfdfd url(gambar/monitor_code.png) no-repeat fixed center;	
 }
+
+h1{
+	color:#114CEB;
+	text-align:center;
+	text-decoration: underline;
+}
+
+h2{
+	text-align:center;
+	text-transform:uppercase;
+}
+
+#text_panjang{
+	text_align: justify;
+	text-indent: 30px;
+	letter-spacing: 5px;
+	word-spacing: 5px;
+	line-height: 20px;
+}
+
