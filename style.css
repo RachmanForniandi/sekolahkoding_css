@@ -11,15 +11,23 @@ body{
 	background: #fdfdfd url(gambar/monitor_code.png) no-repeat fixed center; font-family:sans-serif;	
 }
 
+/*
+a{
+	display: block;
+}
+*/
+
 h1{
 	color:#114CEB;
 	text-align:center;
 	text-decoration: underline;
+	display:inline;
 }
 
 h2{
 	text-align:center;
 	text-transform:uppercase;
+	display:inline;
 }
 
 #text_pendek{
@@ -40,6 +48,13 @@ h2{
 	word-spacing: 5px;
 	line-height: 20px;
 	*/
+}
+
+.menu{
+	display:inline-block;
+	height: 50px;
+	width: 100px;	
+	text-decoration:none;
 }
 
 /*kondisi biasa*/
