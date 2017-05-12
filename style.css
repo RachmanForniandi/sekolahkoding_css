@@ -105,3 +105,10 @@ h2{
 	top: 70px;
 	left: 20px;
 }
+
+#h2_member{
+	background:#F0FF00;
+	position:fixed;
+	top: 100px;
+	left: 20px;
+}
