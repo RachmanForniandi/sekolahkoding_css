@@ -97,10 +97,15 @@ h2{
 	background: #FFFFFF;
 }
 
+
 /*---mengatur posisi di CSS---*/
 /*---1. static, 2. relative, 3. absolute, 4. fixed---*/
+/*posisi absolute pd #h1_member tergantung parent element*/
+/*position relative tergantung paada browser*/
+
+/*
 #menu_member{
-	/*position:relative;*/
+	position:relative;
 	position:absolute;
 	top: 70px;
 	left: 20px;
@@ -112,7 +117,7 @@ h2{
 	top: 100px;
 }
 
-/*posisi absolute pd #h1_member tergantung parent element*/
+
 #h1_member{
 	background:#FF0004;
 	position:absolute;
@@ -126,11 +131,26 @@ h2{
 	top: 100px;
 }
 
-/*position relative tergantung paada browser*/
 #h2_member{
 	background:#F0FF00;
 	position:fixed;
 	top: 100px;
 	left: 20px;
 	z-index: -2;
+}
+*/
+
+table{
+	float: right;
+	margin-right: 20px;
+}
+
+/*efek clear menghilangkan efek float pada elemen berikutnya*/
+#div_baru{
+	clear:both;
+}
+
+#ul_1{
+	float: left;
+	margin-right: 20px;
 }
