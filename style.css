@@ -106,6 +106,26 @@ h2{
 	left: 20px;
 }
 
+
+#parent_h1{
+	position: relative;
+	top: 100px;
+}
+
+/*posisi absolute pd #h1_member tergantung parent element*/
+#h1_member{
+	background:#FF0004;
+	position:absolute;
+	top: 140px;
+	left: 20px;
+}
+
+#parent_h2{
+	position: relative;
+	top: 100px;
+}
+
+/*position relative tergantung paada browser*/
 #h2_member{
 	background:#F0FF00;
 	position:fixed;
