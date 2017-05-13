@@ -150,7 +150,21 @@ table{
 	clear:both;
 }
 
+/*
 #ul_1{
 	float: left;
-	margin-right: 20px;
+	margin-right: 100px;
+}
+*/
+
+ul, ol, dl{
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	width: 33.33%;
+}
+
+#copyright{
+	clear:both;
+	text-align:center;
 }
