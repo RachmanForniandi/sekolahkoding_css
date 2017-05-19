@@ -150,13 +150,6 @@ table{
 	clear:both;
 }
 
-/*
-#ul_1{
-	float: left;
-	margin-right: 100px;
-}
-*/
-
 ul, ol, dl{
 	float: left;
 	margin: 0px;
@@ -164,29 +157,35 @@ ul, ol, dl{
 	width: 33.33%;
 }
 
-h1,h2{
-	color:#737171;
-	margin: 10px 0;
-}
-
-
-div a{
-	background:#FFFD00;
-}
-
-
 #copyright{
 	clear:both;
 	text-align:center;
 }
 
+/*-- halaman kontak--*/
+h1, h2{
+	color:#8B8B8B;
+}
 
-/*langsung dibawah parent*/
+/*
+div a{
+	background:#E8FF00;
+	
+}
+*/
+
+/*langsung di bawah parent*/
 div > a{
-	background:#FFFD00;
+	background:#FFF500;
 }
 
 /*setelah elemen*/
-div + div{
-	background:#11DDFF;
+p + div{
+	background:#00FFFB;
 }
+
+/* semua bagian yang ada di bawahnya parent*/
+div ~ p{
+	background:#FD0004;
+}
+
