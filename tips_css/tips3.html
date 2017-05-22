@@ -1,0 +1,50 @@
+<h1>CSS TIPS 3</h1>
+
+<div class="wrapper">
+    <a href="#menu1">Menu1</a>
+    <div id="menu1" class="isi">"When I was very young, I was foolish enough to believe that our Creed would bring an end to all these conflicts. If only I had possessed the humility to say to myself, I have seen enough for one life, I've done my part. Then again, there is no greater glory than fighting to find the truth."</div>
+</div>
+
+<div class="wrapper">
+    <a href="#menu2">Menu2</a>
+    <div id="menu2" class="isi">"I did not choose this path. It was chosen for me. At first, I thought vengeance would be easy. For thirty years I've lived in the shadows, visited death upon those who deserved it, and vanished like the wind. I don't know who started this conspiracy, but I know who will end it. My name is Ezio Auditore da Firenze. Like my father before me, I am an Assassin."</div>
+</div>
+
+<div class="wrapper">
+    <a href="#menu3">Menu3</a>
+    <div id="menu3" class="isi">"Uphold the principles of our Order, and all for that for which we stand. Never share our secrets nor divulge the true nature of our work. Do so until death – whatever the cost. This is my new creed. I am Shay Patrick Cormac. Templar of the Colonial... of the American Rite. I am an older man now, and perhaps wiser. A war and a revolution have ended, and another is about to begin. May the Father of Understanding guide us all."</div>
+</div>
+
+<style media="screen">
+
+body{
+	margin: 15% 15%;
+	font-family:sans-serif;
+}
+
+
+.wrapper{
+	margin:30px;
+}
+
+a{
+	display:block;
+	background-color: rgb(151, 129, 241);
+	color:#FFFFFF;
+	font-size:26px;
+	color:#000000;
+	text-decoration:none;
+}
+
+.isi{
+	padding:0;
+	height:0;
+	overflow:hidden;
+}
+
+.isi:target{
+	padding: 0 10px;
+	height:auto;
+}
+
+</style>
