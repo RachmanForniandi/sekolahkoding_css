@@ -1,0 +1,70 @@
+<h1>CSS TIPS 4</h1>
+
+<a href="#daftar">Daftar</a>
+<a href="#login">Login</a>
+
+<div class="kotak" id="daftar">
+	<div class="in-kontak">
+    	<input type="text" name="name" value=""><br>
+        <input type="text" name="name" value=""><br>
+        <button>Daftar</button><br>
+        <a href="#close_text">Tutup</a>
+    </div>
+</div>
+
+<div class="kotak" id="login">
+	<div class="in-kontak">
+    	<input type="text" name="name" value=""><br>
+        <input type="text" name="name" value=""><br>
+        <button>Login</button><br>
+        <a href="#close_text">Tutup</a>
+    </div>
+</div>
+
+<p>
+"When I was very young, I was foolish enough to believe that our Creed would bring an end to all these conflicts. If only I had possessed the humility to say to myself, I have seen enough for one life, I've done my part. Then again, there is no greater glory than fighting to find the truth."
+</p>
+
+<style media="screen">
+body{
+	margin : 15% 15%;
+	font-family: sans-serif;	
+}
+
+a{
+	color:#000000;
+	text-decoration:none;
+}
+
+.in-kontak{
+	background-color:rgb(161,161,179);
+	padding:10px;
+	position:fixed;
+	left: 50%;
+	width:300px;
+	height: 100px;
+	margin-left: -150px;
+	transform:translateY(-300%);
+	transition: transform 0.5s ease;
+}
+
+.kotak:before{
+	content:'';
+	background-color:rgb(0,0,0,0.5);
+	position:fixed;
+	top:0;
+	left:0;
+	height: 100%;
+	width: 100%;
+	display:none;
+}
+
+.kotak:target .in-kontak{
+	transform:translateY(0%);
+}
+
+.kotak:target:before{
+	display:block;
+}
+
+</style>
