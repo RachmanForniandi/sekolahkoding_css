@@ -7,7 +7,7 @@
 	#box{
 		height:100px;
 		width:100px;
-		background:#0044FF;
+		background:#0044FF;	
 		border-radius: 10px;
 	}
 	#box2{
@@ -20,8 +20,31 @@
 		height:100px;
 		width:100px;   
 		background:#FF0004;
+		/*box-shadow: horizontal vertical blur spread color*/
 		box-shadow: 5px 20px 15x 5px #000000;		
 	}
+	
+	/*box sizing & vendor prefix */	
+	#box4{
+		height:100px;
+		width:100px;
+		padding: 10px;
+		background:#4900FF;	
+		border: 1px solid #000000;
+		box-sizing:border-box;
+	}
+	/*vendor prefix*/
+	-webkit- box-sizing : border-box;
+	-moz- box-sizing    : border-box;
+	-o- box-sizing 		: border-box;
+	-ms- box-sizing 	: boder-box;
+	
+	#box5{
+		height:100px;
+		width:100px;
+		background:# 00E320;
+	}
+	
 </style>
 </head>
 <body>
@@ -31,5 +54,10 @@
     
     <h1>Box Shadow</h1>
     <div id="box3"></div>
+    
+    <h1>Box Sizing</h1>
+	<div id="box4"></div>
+    <div id="box5"></div>
+    
 </body>
 </html>
